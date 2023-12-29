@@ -1,11 +1,12 @@
+import Navbar from "./assets/Components/Navbar/Navbar"
 
 
 function App() {
   
 
   return (
-    <div className="text-2xl text-center">
-    <p>Test</p>
+    <div>
+     <Navbar/>
     </div>
   )
 }
