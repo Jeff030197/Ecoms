@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cart() {
   return (
-    <button className="hover:bg-white">
+    <button className="hover:bg-blue-300">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
