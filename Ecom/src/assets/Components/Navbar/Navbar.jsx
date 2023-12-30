@@ -10,7 +10,7 @@ import Login from "./Login";
 import FlashSale from "./FlashSale";
 function Navbar() {
     return (
-        <div className="grid grid-cols-3 gap-4 py-2 bg-blue-400 font-serif">
+        <div className="grid grid-cols-3 gap-4 py-2 bg-blue-400 font-serif bg">
             <div className="grid grid-cols-3 gap-4">
                 <div>
                     <img src={Logo} alt="Logo" className="h-16 w-20" />

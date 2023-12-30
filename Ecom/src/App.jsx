@@ -4,6 +4,7 @@ import Sale from "./assets/Components/Sale/Sale"
 import FAQ  from "./assets/Components/Faq/FAQ"
 import Login from "./assets/Components/Login/Login"
 import FlashSale from "./assets/Components/FlashSale/FlashSale";
+import Register from "./assets/Components/Register/Register";
 function App() {
     return (
         <div>
@@ -13,6 +14,7 @@ function App() {
     <Route path="/faq" element = {<FAQ/>}/>
     <Route path="/login" element = {<Login/>}/>
     <Route path="/FlashSale" element = {<FlashSale/>}/>
+    <Route path="/Register" element = {<Register/>}/>
   
    </Routes>
         </div>
